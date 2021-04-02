@@ -1,0 +1,156 @@
+body{
+	background: orange;
+
+}
+.icono{
+	font-size: 35px;
+	color: green;
+	z-index: 1;
+
+	
+}
+
+
+.contenedor-menu{
+	background: black;
+     height: 500px;
+	width: 200px;
+	border: 5px solid white;
+	visibility: hidden;
+	opacity: 3px;
+	z-index: 1;
+
+
+
+
+}
+.menu-nav a{
+	color: white;
+	font-size: 20px;
+text-decoration: none;
+}
+.menu-nav li {
+	list-style: none;
+	margin: 40px;
+	border: 3px solid white;
+}
+.menu-nav li:hover{
+	background: green;
+	font-size: 25px;
+}
+.icono:hover{
+	font-size: 40;
+	color: black;
+	border: 3px solid yellow;
+}
+.menu-open{
+	visibility: visible;
+	opacity: 0px;
+	
+
+}
+.iconos{
+	
+	color: yellow;
+	
+	padding: 3px;
+}
+@media (min-width: 100px) and (max-width: 1000px){
+	.icono{
+	left:  90%;
+	position: fixed;
+	font-size: 50px;
+	top: 30px;
+	z-index: 1;
+
+    }
+  .contenedor-menu{
+  	position: fixed;
+  	left: 25%;
+  	top: 6%
+
+  }
+  .titulo{
+     position: fixed;
+  	font-size: 50px;
+  	background: white;
+  	
+    text-align: center;
+  
+  	height: 300px;
+  	width: 1000px;
+  	padding: 0;
+  	margin: 0;
+  }
+ .contenedor-menu{
+ 	height: 100%;
+ 	width: 100%;
+ } 
+div li {
+font-size:  90px;
+padding: 40px;
+}    
+.menu-nav a{
+	font-size: 50px;
+}
+
+.iconos{
+	padding: 30px;
+}
+.paraffo{
+ font-size: 50px;
+ position: absolute;
+ top: 20%;
+ color: white;
+}
+.contenedor{
+	position: sticky;
+	top: 1px;
+	z-index: 1;
+}
+.imagen1{
+	width: 970px;
+}
+.imagen2{
+	width: 970px;
+}
+.imagen3{
+	width: 970px;
+}
+.video{
+height: 525px;
+
+	
+}
+.audio{
+	height: 70px;
+	width: 900px;
+}
+.final{
+	background: black;
+	height: 43%;
+	width: 99%;
+	position: absolute;
+	top: 440%;
+}
+.derecho {
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 10%;
+	text-align: center;
+}
+.cont-nav li{
+	font-size: 50px;
+	text-align: center;
+	padding: 40px;
+	
+	list-style: none;
+}
+.cont-nav a{
+	color: white;
+	text-decoration: none;
+}
+.iconos1{
+	padding: 30px;
+}
