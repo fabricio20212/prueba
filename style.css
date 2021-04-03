@@ -129,9 +129,9 @@ padding: 3px;
 	.menu-nav li{
 		display: block;
 		
-		font-size: 240px;
-		
-		padding: 5px;
+		font-size: 150px;
+		border: 3px solid white;
+		margin: 5px;
 
 
 	}
@@ -146,6 +146,7 @@ padding: 3px;
 	width: 943px;
 	visibility: hidden;
 	z-index: 1;
+	border: 5px solid white;
 
 
 }
@@ -170,10 +171,11 @@ padding: 3px;
 	background: white;
 	position: fixed;
 	z-index: 1;
+	
 }
 .paraffo{
 	position: relative;
-	top: 13%;
+	top: 250px;
 }
 .iconos{
 	margin: 11px;
@@ -228,5 +230,6 @@ padding: 3px;
 .letra{
 	position: relative;
 	left: 20%;
+
 }
 }
