@@ -9,170 +9,224 @@ body{
 .icono{
 	font-size: 35px;
 	color: black;
-	z-index: 1;
+	visibility: hidden;
 
 	
+}
+.contenedor{
+	
+	background: white;
+	position: relative;
+     top: 0px;
+
+}
+.titulo{
+	position: relative;
+    text-align:center;
+     bottom: 40px;
+	
+	font-size: 50px;
 }
 
 
 .contenedor-menu{
+	border: 3px solid black;
 	background: black;
-     height: 500px;
-	width: 250px;
-	
-	visibility: hidden;
-	
-	z-index: 1;
-
-
+ 	position: relative;
+ 	bottom: 32px;
 
 
 }
-
 
 .menu-nav a{
 	color: white;
 	font-size: 20px;
 text-decoration: none;
-
 }
+
 .menu-nav li {
 	list-style: none;
 	margin: 8px;
+	display: inline-block;
+
+	
+	
 	
 }
 .menu-nav li:hover{
 	background: green;
-	font-size: 25px;
+	
 }
 .icono:hover{
 	font-size: 40;
 	color: black;
 	border: 3px solid yellow;
 }
-.menu-open{
-	visibility: visible;
-	
-	
-
-}
 .iconos{
-	
-	color: yellow;
-	
-	padding: 3px;
+color: yellow;
+padding: 3px;
 }
-@media (min-width: 100px) and (max-width: 1000px){
-	.icono{
-	left:  90%;
-	position: fixed;
-	font-size: 70px;
-	top: 30px;
-	z-index: 1;
 
-
-    }
-  .contenedor-menu{
-  	position: fixed;
-  	left: 25%;
-  	top: 8%
-
-  }
-  .titulo{
-     position: fixed;
-  	font-size: 50px;
-  	position: relative;
-  	top: 50px;
-  	color: black;
-    text-align: center;
-
-  	height: 150px;
-  	width: 1000px;
-  	padding: 0;
-  	margin: 0;
-  }
- .contenedor-menu{
- 	height: 100%;
- 	width: 100%;
- } 
-div li {
-font-size:  90px;
-padding: 40px;
-}    
-.menu-nav a{
-	font-size: 38px;
+.paraffo{
+	text-align: center;
 	color: white;
 }
-
-.iconos{
-	padding: 20px;
-}
-.paraffo{
- font-size: 50px;
- position: absolute;
- top: 10%;
- color: white;
-}
-.contenedor{
-	position: sticky;
-	top: 1px;
-	z-index: 1;
-}
 .imagen1{
-	width: 979px;
+	height:  400px;
+	width: 1340px;
 }
 .imagen2{
-	width: 979px;
+  height:  400px;
+  width: 1340px;
 }
 .imagen3{
-	width: 979px;
+ height: 400px;
+ width: 1340px;
+
 }
 .video{
-height: 525px;
-width: 980px;
-
-	
+	height: 500px;
+	width: 1340px;
 }
 .audio{
-	height: 70px;
-	width: 900px;
+	height: 100px;
+	width: 1000px;
 }
-
-
-.derecho {
-	color:  white;
-	font-size: 50px;
-	position: relative;
-	top: 10%;
-	text-align: center;
-}
-.cont-nav li{
-	font-size: 50px;
-	text-align: center;
-	padding: 40px;
-	
-	list-style: none;
+.final{
+	background: black;
+	height: 350px;
+	width: 100%;
 }
 .cont-nav a{
 	color: white;
 	text-decoration: none;
 }
-.iconos1{
-	padding: 30px;
+.cont-nav li{
+	list-style: none;
+	margin: 30px;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top:50px;
 }
-.final{
-background: black;
+.derecho{
+	position: relative;
+	top: 80px;
+	font-size: 20px;
+	text-align: center;
+}
+.iconos{
+	margin: 3px;
+}
+.iconos1{
+	margin: 10px;
+
+}
+
+
+@media (min-width: 300px) and (max-width: 1000px){
+
+	.menu-nav li{
+		display: block;
+		
+		font-size: 240px;
+		
+		padding: 5px;
+
+
+	}
+	.menu-nav a{
+		font-size: 55px;
+	}
+.contenedor-menu{
+	position: fixed;
+	left: 30%;
+	top: 6%;
+	height: 1950px;
+	width: 943px;
+	visibility: hidden;
+	z-index: 1;
+
+
+}
+
+
+.menu-open{
+	visibility: visible;
+}
+
+
+.icono{
+	visibility: visible;
+	font-size: 70px;
+	position: relative;
+	left: 90%;
+    top: 40px;
+    z-index: 1;
 }
 .contenedor{
-	background: white;
-	width: 979px;
 	height: 200px;
-	position: fixed;
-
-	
+	width: 1340px;
+	background: white;
+	position: sticky;
+	z-index: 1;
 }
-.icono:hover{
-	background: green;
-	
+.paraffo{
+	position: relative;
+	top: 13%;
+}
+.iconos{
+	margin: 11px;
+}
+.titulo{
+	font-size: 70px;
+	position: relative;
+	bottom: 50px;
+}
+.paraffo{
+	font-size: 60px;
+
+
+}
+.imagen1{
+	height: 950px;
+	width: 500px,
+}
+.imagen2{
+	height: 950px;
+	width: 500px,
+}
+.imagen3{
+	height: 950px;
+	width: 500px,
+}
+.video{
+	height: 600px;
+	width: 1330px;
+}
+.audio{
+	width: 1330px;
+}
+
+
+.final{
+	height: 1000px;
+	width: 1350px;
+}
+.cont-nav a{
+	font-size: 70px;
+	margin: 10px;
+}
+.cont-nav li{
+	margin: 40px;
+}
+.derecho{
+	font-size: 60px;
+	position: relative;
+    top: 18%;
+}
+.letra{
+	position: relative;
+	left: 20%;
 }
 }
