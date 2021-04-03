@@ -1,10 +1,14 @@
 body{
-	background: orange;
+	background: #1A5276;
+   padding: 0;
+   margin: 0;
 
 }
+
+
 .icono{
 	font-size: 35px;
-	color: green;
+	color: black;
 	z-index: 1;
 
 	
@@ -14,25 +18,28 @@ body{
 .contenedor-menu{
 	background: black;
      height: 500px;
-	width: 200px;
-	border: 5px solid white;
+	width: 250px;
+	
 	visibility: hidden;
-	opacity: 3px;
+	
 	z-index: 1;
 
 
 
 
 }
+
+
 .menu-nav a{
 	color: white;
 	font-size: 20px;
 text-decoration: none;
+
 }
 .menu-nav li {
 	list-style: none;
-	margin: 40px;
-	border: 3px solid white;
+	margin: 8px;
+	
 }
 .menu-nav li:hover{
 	background: green;
@@ -45,7 +52,7 @@ text-decoration: none;
 }
 .menu-open{
 	visibility: visible;
-	opacity: 0px;
+	
 	
 
 }
@@ -59,25 +66,27 @@ text-decoration: none;
 	.icono{
 	left:  90%;
 	position: fixed;
-	font-size: 50px;
+	font-size: 70px;
 	top: 30px;
 	z-index: 1;
+
 
     }
   .contenedor-menu{
   	position: fixed;
   	left: 25%;
-  	top: 6%
+  	top: 8%
 
   }
   .titulo{
      position: fixed;
   	font-size: 50px;
-  	background: white;
-  	
+  	position: relative;
+  	top: 50px;
+  	color: black;
     text-align: center;
-  
-  	height: 300px;
+
+  	height: 150px;
   	width: 1000px;
   	padding: 0;
   	margin: 0;
@@ -91,16 +100,17 @@ font-size:  90px;
 padding: 40px;
 }    
 .menu-nav a{
-	font-size: 50px;
+	font-size: 38px;
+	color: white;
 }
 
 .iconos{
-	padding: 30px;
+	padding: 20px;
 }
 .paraffo{
  font-size: 50px;
  position: absolute;
- top: 20%;
+ top: 10%;
  color: white;
 }
 .contenedor{
@@ -109,16 +119,17 @@ padding: 40px;
 	z-index: 1;
 }
 .imagen1{
-	width: 970px;
+	width: 979px;
 }
 .imagen2{
-	width: 970px;
+	width: 979px;
 }
 .imagen3{
-	width: 970px;
+	width: 979px;
 }
 .video{
 height: 525px;
+width: 980px;
 
 	
 }
@@ -126,15 +137,10 @@ height: 525px;
 	height: 70px;
 	width: 900px;
 }
-.final{
-	background: black;
-	height: 60%;
-	width: 99%;
-	position: absolute;
-	top: 600%;
-}
+
+
 .derecho {
-	color: white;
+	color:  white;
 	font-size: 50px;
 	position: relative;
 	top: 10%;
@@ -153,4 +159,20 @@ height: 525px;
 }
 .iconos1{
 	padding: 30px;
+}
+.final{
+background: black;
+}
+.contenedor{
+	background: white;
+	width: 979px;
+	height: 200px;
+	position: fixed;
+
+	
+}
+.icono:hover{
+	background: green;
+	
+}
 }
